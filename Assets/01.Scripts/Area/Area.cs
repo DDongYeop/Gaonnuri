@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Area : MonoBehaviour
 {
-    public AreaData Data;
+    public AreaData Data = AreaData.NULL;
 
     private void Start()
     {

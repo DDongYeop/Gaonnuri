@@ -7,46 +7,8 @@
     <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Fence_Wood_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Fence_Wood_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Flower_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Flower_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Flower_B.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Flower_B.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Flower_C.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Flower_C.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Gravestone_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Gravestone_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Gravestone_B.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Gravestone_B.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Ground_Box.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Ground_Box.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Key_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Key_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Flower_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Flower_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Flower_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Flower_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Flower_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Flower_C.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Gravestone_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Gravestone_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Gravestone_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Gravestone_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Grass_D.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Grass_D.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Mix_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Mix_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_C.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_D.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_D.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Key_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Key_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Mushroom_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Mushroom_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Rock_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Rock_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Rock_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Rock_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Treasure_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Treasure_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Tree_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Tree_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Tree_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Tree_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Water_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Water_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Water_Half_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Water_Half_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Wood_Bridge_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Materials/Wood_Bridge_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Mushroom_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Mushroom_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Rock_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Rock_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Rock_B.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Rock_B.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Treasure_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Treasure_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Tree_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Tree_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Water_Half_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Water_Half_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Wood_Bridge_A.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Models/Suriyun/Voxel_Environments/FBX/Wood_Bridge_A.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/Area.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/Area.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705404928657</updated>
       <workItem from="1705404929237" duration="7000" />
-      <workItem from="1705562135650" duration="6159000" />
+      <workItem from="1705562135650" duration="10470000" />
     </task>
     <servers />
   </component>
