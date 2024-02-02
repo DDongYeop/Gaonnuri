@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 public class AreaManager : MonoBehaviour
 {
+    public static AreaManager Instance;
+    
     [Header("Area Init")]
     public List<AreaLine> AreaLines;
     [SerializeField] private int _currentStage;
@@ -19,6 +21,10 @@ public class AreaManager : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null)
+            Debug.LogError("Multiple AreaManager is running");
+        Instance = this;
+        
         for (int i = 0; i < AreaLines.Count; i++)
         {
             for (int j = 0; j < AreaLines[i].Areas.Count; ++j)
@@ -36,6 +42,19 @@ public class AreaManager : MonoBehaviour
             Destroy(existingArea.gameObject);
         }
         
+        _areaDic[pos] = area;
+        CreateNewObject(pos);
+    }
+
+    public void CreateArea(Vector3Int pos)
+    {
+        if (_areaDic.TryGetValue(pos, out var existingArea))
+        {
+            if (existingArea.GetComponent<Area>().Data != AreaData.NULL)
+                return;
+        }
+
+        Area area = Instantiate(_areaObject, pos, Quaternion.identity).GetComponent<Area>();
         _areaDic[pos] = area;
         CreateNewObject(pos);
     }
