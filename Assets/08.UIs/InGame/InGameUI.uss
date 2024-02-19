@@ -1,0 +1,31 @@
+.area-select-area {
+    position: absolute;
+    background-color: rgb(106, 106, 106);
+    width: 300px;
+    height: 90%;
+    bottom: 5%;
+    left: 2.5%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(79, 79, 79);
+    border-right-color: rgb(79, 79, 79);
+    border-top-color: rgb(79, 79, 79);
+    border-bottom-color: rgb(79, 79, 79);
+}
+
+.area-select-scrollview {
+    width: 95%;
+    height: 95%;
+    align-items: center;
+}
+
+Scroller {
+    display: none;
+    visibility: visible;
+}

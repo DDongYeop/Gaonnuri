@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/08.UIs/InGame/InGameUI.uss?fileID=7433441132597879392&amp;guid=27451a8b94eedb84a881133269fa6291&amp;type=3#InGameUI" />
+    <ui:VisualElement name="container" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="area-select-area" picking-mode="Ignore" class="area-select-area" style="align-items: center; justify-content: center;">
+            <ui:ScrollView name="area-select-scrollview" class="area-select-scrollview" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
