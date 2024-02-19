@@ -1,9 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Serialization;
 
 public class AreaManager : MonoBehaviour
 {
     public static AreaManager Instance;
+
+    [FormerlySerializedAs("_currentAreaData")] [Header("Area")] 
+    public AreaData CurrentAreaData = AreaData.GRASS;
     
     [Header("Area Init")]
     public List<AreaLine> AreaLines;
@@ -54,7 +58,7 @@ public class AreaManager : MonoBehaviour
                 return;
         }
 
-        Area area = Instantiate(_areaObject, pos, Quaternion.identity).GetComponent<Area>();
+        Area area = Instantiate(StageManager.Instance.AreaObjects[(int)CurrentAreaData], pos, Quaternion.identity).GetComponent<Area>();
         _areaDic[pos] = area;
         CreateNewObject(pos);
     }

@@ -10,7 +10,7 @@ public class AreaCreator : MonoBehaviour
     private void Update()
     {
         PositionCheck();
-        TemporaryArea();
+        //TemporaryArea();
         AreaCreate();
     }
 
@@ -37,10 +37,9 @@ public class AreaCreator : MonoBehaviour
 
     private void AreaCreate()
     {
-        if (_currentPosition == new Vector3Int(0, 1000000, 0) || !Input.GetMouseButtonDown(0))
+        if (_currentPosition == new Vector3Int(0, 1000000, 0) || !Input.GetMouseButtonUp(0))
             return;
         
-        print(AreaManager.Instance);
         AreaManager.Instance.CreateArea(_currentPosition);
     }
 }
