@@ -11,7 +11,6 @@ public class AreaManager : MonoBehaviour
     
     [Header("Area Init")]
     public List<AreaLine> AreaLines;
-    [SerializeField] private int _currentStage;
 
     [Header("Area Instantiate")]
     private Dictionary<Vector3Int, Area> _areaDic = new Dictionary<Vector3Int, Area>();
@@ -33,7 +32,7 @@ public class AreaManager : MonoBehaviour
         {
             for (int j = 0; j < AreaLines[i].Areas.Count; ++j)
             {
-                AreaLines[i].Areas[j].Data = StageManager.Instance.Stages[_currentStage].StageAreaData[i].AreaDataContainer[j];
+                AreaLines[i].Areas[j].Data = StageManager.Instance.Stages[PlayerPrefs.GetInt("CurrentStage")].StageAreaData[i].AreaDataContainer[j];
                 AddDic(Vector3ToVector3Int(AreaLines[i].Areas[j].transform.position), AreaLines[i].Areas[j]);
             }
         }

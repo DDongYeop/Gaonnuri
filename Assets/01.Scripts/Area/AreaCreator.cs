@@ -39,7 +39,11 @@ public class AreaCreator : MonoBehaviour
     {
         if (_currentPosition == new Vector3Int(0, 1000000, 0) || !Input.GetMouseButtonUp(0))
             return;
-        
+        if (AreaSelectManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] - 1 < 0)
+            return;
+
+        AreaSelectManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] -= 1;
+        AreaSelectManager.Instance.AreaDic[AreaManager.Instance.CurrentAreaData].UseArea(AreaSelectManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData]);
         AreaManager.Instance.CreateArea(_currentPosition);
     }
 }

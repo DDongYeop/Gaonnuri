@@ -34,6 +34,6 @@ public class AreaUI : MonoBehaviour
     
     public void ObjectSelect()
     {
-        // 선택
+        AreaManager.Instance.CurrentAreaData = _currentAreaData;
     }
 }

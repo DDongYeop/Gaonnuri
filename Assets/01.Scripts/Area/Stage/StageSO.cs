@@ -6,6 +6,7 @@ using UnityEngine;
 public class StageSO : ScriptableObject
 {
     public List<AreaDatas> StageAreaData;
+    public List<AreaCounterDatas> AreaCounterDatas;
 
     //플레이어 관련 있어야함.
     //위치 이런거 
@@ -15,4 +16,12 @@ public class StageSO : ScriptableObject
 public class AreaDatas
 {
     public List<AreaData> AreaDataContainer;
+}
+
+[Serializable]
+public class AreaCounterDatas
+{
+    public AreaData Area;
+    public int Cnt;
+    
 }
