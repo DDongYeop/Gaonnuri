@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/Stage/StageSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/Stage/StageSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/UI/AreaUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/UI/AreaUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/StageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/StageManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/Area/UI/AreaButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/Area/UI/AreaButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/06.ScriptableObjects/Stage/Stage01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/06.ScriptableObjects/Stage/Stage01.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +107,8 @@
       <workItem from="1706849300577" duration="2274000" />
       <workItem from="1707828181529" duration="619000" />
       <workItem from="1708347694354" duration="915000" />
-      <workItem from="1708520593004" duration="2782000" />
+      <workItem from="1708520593004" duration="3280000" />
+      <workItem from="1708601438325" duration="595000" />
     </task>
     <servers />
   </component>
