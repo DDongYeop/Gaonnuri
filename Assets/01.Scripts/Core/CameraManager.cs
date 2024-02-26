@@ -13,5 +13,6 @@ public class CameraManager : MonoSingleton<CameraManager>
     public void PlayCameraPriority(int value)
     {
         _PlayerCamera.depth = value;
+        UIManager.Instance.SetUICanvas(UICanvasState.PLAYER);
     }
 }

@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement 
@@ -25,6 +26,19 @@ public class PlayerMovement
 
     public void Jump()
     {
-        _rigidbody.AddForce(Vector3.up * _playerController.JumpPower);
+        bool collision = false;
+        RaycastHit[] hits;
+        hits = Physics.BoxCastAll(_playerTrm.position, new Vector3(.3f, .1f), new Vector3(0, 0.1f), Quaternion.identity, .5f, _playerController.WhatIsArea);
+        foreach (var hit in hits)
+        {
+            if (!hit.collider.isTrigger)
+                collision = true;
+        }
+
+        if (collision)
+        {
+            _rigidbody.AddForce(Vector3.up * _playerController.JumpPower);
+            _playerController.JumpCnt -= 1;
+        }
     }
 }

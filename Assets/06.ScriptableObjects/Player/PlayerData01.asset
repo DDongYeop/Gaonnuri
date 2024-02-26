@@ -15,4 +15,4 @@ MonoBehaviour:
   JumpCnt: 100
   MoveDistance: 100
   MoveSpeed: 5
-  JumpPower: 10000
+  JumpPower: 12500

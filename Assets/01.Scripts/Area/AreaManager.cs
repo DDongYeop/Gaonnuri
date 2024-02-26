@@ -59,7 +59,6 @@ public class AreaManager : MonoBehaviour
         }
 
         Area area = Instantiate(StageManager.Instance.AreaObjects[(int)CurrentAreaData], pos, Quaternion.identity).GetComponent<Area>();
-        area.GetComponent<Collider>().isTrigger = false;
         _areaDic[pos] = area;
         CreateNewObject(pos);
     }

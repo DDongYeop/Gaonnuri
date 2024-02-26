@@ -35,7 +35,7 @@ public class PlayerCamera : MonoBehaviour
         transform.localEulerAngles = new Vector3(_rotationMouseY, _rotationMouseX, 0f);
         transform.position = _firstCamTarget.position + _addPos;
 
-        Quaternion rot = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
+        Quaternion rot = new Quaternion(0, transform.localRotation.y, 0, transform.localRotation.w);
         _firstCamTarget.localRotation = rot;
     }
 }
