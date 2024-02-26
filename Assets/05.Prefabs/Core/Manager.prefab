@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a7ce4231a940af21969b5df5f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentGameState: 2
 --- !u!114 &1720187245517046753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,6 +61,9 @@ MonoBehaviour:
   Stages:
   - {fileID: 0}
   - {fileID: 11400000, guid: ded5b9be4fc0f8748a5153c1fb47dbb8, type: 2}
+  PlayerSOs:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 9ae2f8a604b51c54c8e919e9b9091156, type: 2}
   AreaObjects:
   - {fileID: 2303790651989673195, guid: 315e3037d6061204cad190d8fb3728b6, type: 3}
   - {fileID: 3745851523533108248, guid: bda2e7d7c4b60374e99fe32cb10ef2cc, type: 3}

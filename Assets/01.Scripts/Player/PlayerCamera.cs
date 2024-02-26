@@ -1,17 +1,24 @@
+using System;
 using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
     [SerializeField] public Transform _firstCamTarget = null;
 
+    [SerializeField] private Vector3 _addPos;
     [SerializeField] private float _spdMouseX = 5f;
     [SerializeField] private float _spdMouseY = 5f;
     [SerializeField] private float _rotationMouseX = .0f;
     [SerializeField] private float _rotationMouseY = .0f;
 
+    private void Start()
+    {
+        transform.position = _firstCamTarget.position + _addPos;
+    }
+
     private void LateUpdate()
     {
-        if (GameManager.Instance.CurrentGameState == GameState.PLAY)
+        if (GameManager.Instance && GameManager.Instance.CurrentGameState == GameState.PLAY)
             FirstCam();
     }
     
@@ -21,12 +28,14 @@ public class PlayerCamera : MonoBehaviour
         _rotationMouseX = transform.localEulerAngles.y + mouseX * _spdMouseX;
         _rotationMouseX = (_rotationMouseX > 180f) ? _rotationMouseX - 360f : _rotationMouseX;
         
-        float mouseY = Input.GetAxis("Mouse Y");
+        float mouseY = Input.GetAxis("Mouse Y") * -1;
         _rotationMouseY = transform.localEulerAngles.x + mouseY * _spdMouseY;
         _rotationMouseY = (_rotationMouseY > 180f) ? _rotationMouseY - 360f : _rotationMouseY;
 
         transform.localEulerAngles = new Vector3(_rotationMouseY, _rotationMouseX, 0f);
-        _firstCamTarget.localRotation = transform.localRotation;
-        transform.position = _firstCamTarget.position;
+        transform.position = _firstCamTarget.position + _addPos;
+
+        Quaternion rot = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
+        _firstCamTarget.localRotation = rot;
     }
 }

@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class AreaSelectManager : MonoSingleton<AreaSelectManager>
+public class UIManager : MonoSingleton<UIManager>
 {
     [SerializeField] private AreaUI _areaUIObj;
     private Transform _contents;
@@ -26,4 +28,19 @@ public class AreaSelectManager : MonoSingleton<AreaSelectManager>
             AreaDicCnt[areaCounterData.Area] = areaCounterData.Cnt;
         }
     }
+
+    #region Button
+
+    public void StartButton()
+    {
+        CameraManager.Instance.PlayCameraPriority(5);
+        GameManager.Instance.StateChange(GameState.PLAY, 1);
+    }
+    
+    public void ReStartButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    #endregion
 }
