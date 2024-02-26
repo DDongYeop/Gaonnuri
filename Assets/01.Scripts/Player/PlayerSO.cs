@@ -6,4 +6,5 @@ public class PlayerSO : ScriptableObject
     public int JumpCnt;
     public float MoveDistance;
     public float MoveSpeed;
+    public float JumpPower;
 }

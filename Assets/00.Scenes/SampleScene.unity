@@ -4400,8 +4400,7 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras:
-  - {fileID: 2092085851}
+  m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
@@ -6350,7 +6349,6 @@ GameObject:
   - component: {fileID: 1168400541}
   - component: {fileID: 1168400540}
   - component: {fileID: 1168400539}
-  - component: {fileID: 1168400538}
   m_Layer: 13
   m_Name: Player
   m_TagString: Untagged
@@ -6374,18 +6372,6 @@ Transform:
   - {fileID: 248146530}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1168400538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168400536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 830c3246bba990c43a4a0431a28438cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1168400539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6401,6 +6387,7 @@ MonoBehaviour:
   JumpCnt: 0
   MoveDistance: 0
   MoveSpeed: 0
+  JumpPower: 0
 --- !u!65 &1168400540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6430,7 +6417,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168400536}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
