@@ -26,4 +26,18 @@ public class GameManager : MonoSingleton<GameManager>
         yield return new WaitForSecondsRealtime(duration);
         CurrentGameState = state;
     }
+
+    #region Clear&Fail
+
+    public void OnGameClear()
+    {
+        PlayerPrefs.SetInt("MaxStage", PlayerPrefs.GetInt("CurrentStage") + 1);
+    }
+
+    public void OnGameFail()
+    {
+        UIManager.Instance.RePlay();
+    }
+
+    #endregion
 }

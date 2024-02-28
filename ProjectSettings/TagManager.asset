@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Area
-  - 'ArrivalPoint '
+  - ArrivalPoint
   layers:
   - Default
   - TransparentFX
@@ -21,7 +21,7 @@ TagManager:
   - 
   - Area
   - Player
-  - 
+  - 'ScreenTransition '
   - 
   - 
   - 
