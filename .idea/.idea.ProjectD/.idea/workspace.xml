@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Player/PlayerSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/UI/ScreenTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/UI/UICanvasState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Data/UniversalRenderPipelineAsset.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -120,7 +120,7 @@
       <workItem from="1708688768626" duration="2378000" />
       <workItem from="1708929826094" duration="10189000" />
       <workItem from="1709035101215" duration="711000" />
-      <workItem from="1709107339030" duration="658000" />
+      <workItem from="1709107339030" duration="2552000" />
     </task>
     <servers />
   </component>
