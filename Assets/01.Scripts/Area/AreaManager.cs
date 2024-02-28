@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Serialization;
@@ -27,7 +28,10 @@ public class AreaManager : MonoBehaviour
         if (Instance != null)
             Debug.LogError("Multiple AreaManager is running");
         Instance = this;
-        
+    }
+
+    private void Start()
+    {
         for (int i = 0; i < AreaLines.Count; i++)
         {
             for (int j = 0; j < AreaLines[i].Areas.Count; ++j)

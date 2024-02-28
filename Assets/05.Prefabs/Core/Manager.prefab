@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5878303925169064869}
+  - component: {fileID: 8276417777368355848}
   m_Layer: 14
   m_Name: 'ScreenTransition '
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 7757718211399806191}
   m_Father: {fileID: 3278837616727284510}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8276417777368355848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585886642928755796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e1fb4efde549546adaf9b7bf79d3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transitionTime: 1
 --- !u!1 &4812708488931446843
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a7ce4231a940af21969b5df5f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentGameState: 2
+  CurrentGameState: 3
 --- !u!114 &1720187245517046753
 MonoBehaviour:
   m_ObjectHideFlags: 0

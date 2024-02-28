@@ -1,0 +1,9 @@
+.label {
+    transition-duration: 1s;
+    color: rgb(0, 0, 0);
+    transition-timing-function: ease-in-out-sine;
+}
+
+.label.unshow {
+    color: rgba(0, 0, 0, 0);
+}
