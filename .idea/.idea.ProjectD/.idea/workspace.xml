@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/ScreenTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/ScreenTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/Core/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/Core/Manager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08.UIs/PanelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.UIs/PanelSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/09.Shaders/ScreenTransitionShader/Shader Graphs_ScreenTransitionShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09.Shaders/ScreenTransitionShader/Shader Graphs_ScreenTransitionShader.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +69,22 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\kitty\Documents\GitHub\ProjectD -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\kitty\Documents\GitHub\ProjectD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\kitty\Documents\GitHub\ProjectD -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\kitty\Documents\GitHub\ProjectD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\kitty\Documents\GitHub\ProjectD -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -90,6 +94,26 @@
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -132,6 +156,7 @@
       <workItem from="1708929826094" duration="10189000" />
       <workItem from="1709035101215" duration="711000" />
       <workItem from="1709107339030" duration="7321000" />
+      <workItem from="1709184689693" duration="554000" />
     </task>
     <servers />
   </component>

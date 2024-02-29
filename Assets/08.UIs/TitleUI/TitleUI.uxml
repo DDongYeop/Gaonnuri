@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/08.UIs/TitleUI/TitleUI.uss?fileID=7433441132597879392&amp;guid=ee895d2af21a1cb46aca5ec95b353f63&amp;type=3#TitleUI" />
     <ui:VisualElement name="container" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: space-between;">
         <ui:Label tabindex="-1" text="Game Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="game-label" picking-mode="Ignore" class="label unshow" style="font-size: 175px; margin-top: 167px;" />
-        <ui:Label tabindex="-1" text="Touch To Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="touchtoplay-label" picking-mode="Ignore" class="label unshow" style="margin-bottom: 30px; font-size: 50px;" />
+        <ui:Label tabindex="-1" text="Touch To Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="touchtoplay-label" picking-mode="Ignore" class="label unshow" style="margin-bottom: 60px; font-size: 50px;" />
     </ui:VisualElement>
-    <ui:VisualElement name="scenetransition" picking-mode="Ignore" style="position: absolute;" />
+    <ui:VisualElement name="scenetransition" picking-mode="Ignore" style="position: absolute; background-image: url(&apos;project://database/Assets/99.Others/RenderTexture/TitleRenderTexture.renderTexture?fileID=8400000&amp;guid=4c09ba234c64bd6438c5343522e56584&amp;type=2#TitleRenderTexture&apos;); width: 100%; height: 100%;" />
 </ui:UXML>
