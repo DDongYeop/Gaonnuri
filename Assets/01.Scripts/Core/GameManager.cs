@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoSingleton<GameManager>
 {
@@ -12,9 +13,18 @@ public class GameManager : MonoSingleton<GameManager>
     {
         DontDestroyOnLoad(gameObject);
         _currentGameState = GameState.WAIT;
+        
+        EarlySetting();
+        SceneManager.sceneLoaded += LoadedSceneEvent;
     }
 
-    private void OnEnable()
+    private void EarlySetting()
+    {
+        if (!PlayerPrefs.HasKey("MaxStage"))
+            PlayerPrefs.SetInt("MaxStage", 1);
+    }
+
+    private void LoadedSceneEvent(Scene scene, LoadSceneMode mode)
     {
         CameraSetting();
     }
