@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/StageSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/StageSelect.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/StageSelectButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/StageSelectButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/StageSelect/Button00.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/StageSelect/Button00.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.UIs/TitleUI/TitleUI.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.UIs/TitleUI/TitleUI.uxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +167,7 @@
       <workItem from="1709035101215" duration="711000" />
       <workItem from="1709107339030" duration="7321000" />
       <workItem from="1709184689693" duration="554000" />
-      <workItem from="1709278920746" duration="1090000" />
+      <workItem from="1709278920746" duration="1987000" />
     </task>
     <servers />
   </component>

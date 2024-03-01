@@ -64,5 +64,5 @@ Material:
     - _value: 1.5
     m_Colors:
     - _BackColor: {r: 0.20518868, g: 0.7697611, b: 0.8207547, a: 1}
-    - _backColor: {r: 1, g: 1, b: 1, a: 0}
+    - _backColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

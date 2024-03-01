@@ -18093,6 +18093,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3317099807471811713, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
+      propertyPath: MaxStage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4812708488931446843, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
       propertyPath: m_Name
       value: Manager

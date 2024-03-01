@@ -8,6 +8,8 @@ public class GameManager : MonoSingleton<GameManager>
     private GameState _currentGameState = GameState.WAIT;
 
     public GameState CurrentGameState => _currentGameState;
+
+    public int MaxStage;
     
     private void Awake()
     {
@@ -60,25 +62,27 @@ public class GameManager : MonoSingleton<GameManager>
     private void CameraSetting()
     {
         Camera[] cameras = FindObjectsOfType<Camera>();
-        float scaleheight = ((float)Screen.width / Screen.height) / ((float)2 / 1); // (가로 / 세로)
-        float scalewidth = 1f / scaleheight;
+        float scaleHeight = ((float)Screen.width / Screen.height) / ((float)2 / 1); // (가로 / 세로)
+        float scaleWidth = 1f / scaleHeight;
         
         foreach (var camera in cameras)
         {
             Rect rect = camera.rect;
-            if (scaleheight < 1)
+            if (scaleHeight < 1)
             {
-                rect.height = scaleheight;
-                rect.y = (1f - scaleheight) / 2f;
+                rect.height = scaleHeight;
+                rect.y = (1f - scaleHeight) / 2f;
             }
             else
             {
-                rect.width = scalewidth;
-                rect.x = (1f - scalewidth) / 2f;
+                rect.width = scaleWidth;
+                rect.x = (1f - scaleWidth) / 2f;
             }
             camera.rect = rect;
         }
     }
+    
+    public void OnPreCull() => GL.Clear(true, true, Color.black);
     
     #endregion
 }
