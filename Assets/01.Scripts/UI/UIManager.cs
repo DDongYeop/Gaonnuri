@@ -93,7 +93,7 @@ public class UIManager : MonoSingleton<UIManager>
 
     private void UpdateText()
     {
-        _distanceTxt.text = $"Distance: {(Mathf.Floor(_player.MoveDistance * 100f) / 100f).ToString()}";
-        _jumpTxt.text = $"Jump: {_player.JumpCnt.ToString()}";
+        _distanceTxt.text = $"남은거리: {(Mathf.Floor(_player.MoveDistance * 100f) / 100f).ToString()}";
+        _jumpTxt.text = $"뛰어오르기: {_player.JumpCnt.ToString()}";
     }
 }

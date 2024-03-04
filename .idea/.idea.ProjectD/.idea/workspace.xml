@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="" />
+    <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/StageSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/StageSelect.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/StageSelect/Button (0).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/StageSelect/Button (0).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.UIs/TitleUI/TitleUI.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.UIs/TitleUI/TitleUI.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.UIs/TitleUI/TitleUI.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.UIs/TitleUI/TitleUI.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +173,7 @@
       <workItem from="1709184689693" duration="554000" />
       <workItem from="1709278920746" duration="2857000" />
       <workItem from="1709353891355" duration="138000" />
-      <workItem from="1709554075388" duration="3192000" />
+      <workItem from="1709554075388" duration="3791000" />
     </task>
     <servers />
   </component>
