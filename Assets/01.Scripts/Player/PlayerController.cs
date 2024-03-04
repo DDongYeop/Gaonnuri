@@ -60,14 +60,4 @@ public class PlayerController : MonoBehaviour
             return;
         _playerMovement.Jump();
     }
-
-    #if UNITY_EDITOR
-    
-    
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireCube(transform.position + new Vector3(0f, -0.1f, 0), new Vector3(.75f, .25f, 0.75f));
-    }
-    
-    #endif
 }

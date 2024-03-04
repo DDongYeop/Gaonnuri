@@ -48,6 +48,8 @@ public class GameManager : MonoSingleton<GameManager>
     public void OnGameClear()
     {
         PlayerPrefs.SetInt("MaxStage", PlayerPrefs.GetInt("CurrentStage") + 1);
+        StateChange(GameState.CHANGE, 0);
+        UIManager.Instance.SetUICanvas(UICanvasState.CLEAR);
     }
 
     public void OnGameFail()

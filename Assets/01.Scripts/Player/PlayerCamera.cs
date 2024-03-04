@@ -18,7 +18,7 @@ public class PlayerCamera : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (GameManager.Instance && GameManager.Instance.CurrentGameState == GameState.PLAY)
+        if (GameManager.Instance && (GameManager.Instance.CurrentGameState == GameState.PLAY || GameManager.Instance.CurrentGameState == GameState.CHANGE))
             FirstCam();
     }
     

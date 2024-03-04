@@ -22,6 +22,9 @@ public class PlayerMovement
 
         Vector3 endPos = new Vector3(_playerTrm.position.x, 0, _playerTrm.position.z);
         _playerController.MoveDistance -= Vector3.Distance(originPos, endPos);
+        
+        if (_playerController.MoveDistance < 0)
+            GameManager.Instance.OnGameFail();
     }
 
     public void Jump()

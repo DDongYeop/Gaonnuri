@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Area
   - ArrivalPoint
+  - Gameover
   layers:
   - Default
   - TransparentFX

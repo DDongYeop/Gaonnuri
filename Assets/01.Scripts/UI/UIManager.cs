@@ -66,10 +66,15 @@ public class UIManager : MonoSingleton<UIManager>
 
     public void RePlay()
     {
+        _player.ChangeEarly();
         CameraManager.Instance.PlayCameraPriority(-5);
         GameManager.Instance.StateChange(GameState.CREATOR, 1);
-        _player.ChangeEarly();
         SetUICanvas(UICanvasState.INGAME);
+    }
+
+    public void HomeButton()
+    {
+        ScreenTransition.Instance.SceneChange(1, GameState.CHANGE);
     }
 
     #endregion
