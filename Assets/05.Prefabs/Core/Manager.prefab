@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a7ce4231a940af21969b5df5f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentGameState: 3
+  MaxStage: 0
 --- !u!114 &1720187245517046753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   - {fileID: 2303790651989673195, guid: 315e3037d6061204cad190d8fb3728b6, type: 3}
   - {fileID: 3745851523533108248, guid: bda2e7d7c4b60374e99fe32cb10ef2cc, type: 3}
   AreaUiImage:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 0e9592663db2031459321fa854a4b71f, type: 3}
 --- !u!1 &5330930775116732580
 GameObject:
   m_ObjectHideFlags: 0
