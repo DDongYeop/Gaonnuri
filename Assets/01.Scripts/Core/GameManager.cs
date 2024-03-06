@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,9 +16,10 @@ public class GameManager : MonoSingleton<GameManager>
         _currentGameState = GameState.WAIT;
         
         EarlySetting();
+        FrameLimit();
         SceneManager.sceneLoaded += LoadedSceneEvent;
     }
-
+    
     private void EarlySetting()
     {
         if (!PlayerPrefs.HasKey("MaxStage"))
@@ -87,4 +87,11 @@ public class GameManager : MonoSingleton<GameManager>
     public void OnPreCull() => GL.Clear(true, true, Color.black);
     
     #endregion
+
+    private void FrameLimit()
+    {
+#if UNITY_ANDROID
+        Application.targetFrameRate = 120;
+#endif
+    }
 }

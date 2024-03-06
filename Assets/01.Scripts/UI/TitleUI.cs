@@ -43,7 +43,7 @@ public class TitleUI : MonoBehaviour
             ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
         #else
         if (GameManager.Instance.CurrentGameState == GameState.WAIT && Input.touchCount >= 1)
-            ScreenTransition.Instance.SceneChange(1, GameState.CHANGE);
+            ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
         #endif
     }
 

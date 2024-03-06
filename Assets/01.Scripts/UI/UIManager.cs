@@ -74,7 +74,7 @@ public class UIManager : MonoSingleton<UIManager>
 
     public void HomeButton()
     {
-        ScreenTransition.Instance.SceneChange(1, GameState.CHANGE);
+        ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
     }
 
     #endregion

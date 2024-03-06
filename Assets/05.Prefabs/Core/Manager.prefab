@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a7ce4231a940af21969b5df5f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxStage: 0
+  MaxStage: 1
 --- !u!114 &1720187245517046753
 MonoBehaviour:
   m_ObjectHideFlags: 0

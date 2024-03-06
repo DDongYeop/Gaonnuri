@@ -39,7 +39,7 @@ public class AreaCreator : MonoBehaviour
     {
         if (_currentPosition == new Vector3Int(0, 1000000, 0) || !Input.GetMouseButtonUp(0))
             return;
-        if (UIManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] - 1 < 0 && GameManager.Instance.CurrentGameState != GameState.CREATOR)
+        if (UIManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] - 1 < 0 || GameManager.Instance.CurrentGameState != GameState.CREATOR)
             return;
 
         UIManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] -= 1;
