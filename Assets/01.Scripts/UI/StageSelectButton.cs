@@ -20,7 +20,7 @@ public class StageSelectButton : MonoBehaviour
     {
         if (GameManager.Instance.CurrentGameState == GameState.CHANGE)
             return;
-
+        
         PlayerPrefs.SetInt("CurrentStage", _currentIndex);
         ScreenTransition.Instance.SceneChange(2, GameState.CREATOR);
     }

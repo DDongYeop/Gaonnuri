@@ -25,7 +25,6 @@ public class UIManager : MonoSingleton<UIManager>
 
     private void OnEnable()
     {
-        PlayerPrefs.SetInt("CurrentStage", 1);
         _contents = transform.GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(0).transform;
     }
 

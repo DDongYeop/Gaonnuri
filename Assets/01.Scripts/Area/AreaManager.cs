@@ -36,9 +36,10 @@ public class AreaManager : MonoBehaviour
         {
             for (int j = 0; j < AreaLines[i].Areas.Count; ++j)
             {
-                AreaLines[i].Areas[j].Data = StageManager.Instance.Stages[PlayerPrefs.GetInt("CurrentStage")].StageAreaData[i].AreaDataContainer[j];
-                AreaLines[i].Areas[j].GetComponent<Collider>().isTrigger = false;
-                AddDic(Vector3ToVector3Int(AreaLines[i].Areas[j].transform.position), AreaLines[i].Areas[j]);
+                //AreaLines[i].Areas[j].Data = StageManager.Instance.Stages[PlayerPrefs.GetInt("CurrentStage")].StageAreaData[i].AreaDataContainer[j];
+                AreaLines[i].Areas[j].SetUp(StageManager.Instance.Stages[PlayerPrefs.GetInt("CurrentStage")].StageAreaData[i].AreaDataContainer[j]);
+                if (AreaLines[i].Areas[j].Data != AreaData.NULL)
+                    AddDic(Vector3ToVector3Int(AreaLines[i].Areas[j].transform.position), AreaLines[i].Areas[j]);
             }
         }
     }

@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 3278837616727284510}
   - component: {fileID: 3317099807471811713}
   - component: {fileID: 1720187245517046753}
+  - component: {fileID: 3868187045955525686}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -92,7 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a7ce4231a940af21969b5df5f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxStage: 1
+  MaxStage: 3
 --- !u!114 &1720187245517046753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,14 +109,35 @@ MonoBehaviour:
   Stages:
   - {fileID: 0}
   - {fileID: 11400000, guid: ded5b9be4fc0f8748a5153c1fb47dbb8, type: 2}
+  - {fileID: 11400000, guid: e907c19dd61196345a8896c2ad2c4ee4, type: 2}
+  - {fileID: 11400000, guid: 8351b419098ef064592611a5c4be3389, type: 2}
   PlayerSOs:
   - {fileID: 0}
   - {fileID: 11400000, guid: 9ae2f8a604b51c54c8e919e9b9091156, type: 2}
+  - {fileID: 11400000, guid: bea70edd2bae5874b92db33e912026c5, type: 2}
+  - {fileID: 11400000, guid: 9e6f4fc012487ad468012bef5b89646d, type: 2}
   AreaObjects:
   - {fileID: 2303790651989673195, guid: 315e3037d6061204cad190d8fb3728b6, type: 3}
   - {fileID: 3745851523533108248, guid: bda2e7d7c4b60374e99fe32cb10ef2cc, type: 3}
   AreaUiImage:
   - {fileID: 21300000, guid: 0e9592663db2031459321fa854a4b71f, type: 3}
+--- !u!114 &3868187045955525686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812708488931446843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 87fabff75eaec794e9b9220d46e2655f, type: 2}
 --- !u!1 &5330930775116732580
 GameObject:
   m_ObjectHideFlags: 0

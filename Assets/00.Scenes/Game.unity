@@ -1516,8 +1516,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d435ca8ba724b6148867ce70e4ac32d5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7094,7 +7094,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ae704073138d7494fb5d1485af4eafcf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e308410b7546fd4ab4b2eadd3ddc29f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8135,6 +8135,10 @@ PrefabInstance:
     - target: {fileID: 620690954009110578, guid: d5a3641d547b4ad44933ae55d036c135, type: 3}
       propertyPath: m_Name
       value: TemporaryArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 620690954009110578, guid: d5a3641d547b4ad44933ae55d036c135, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9752,8 +9756,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10254,7 +10258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fed5f44afab12744d98b97787fb0cfce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4936ec2122c19148a536ff6e37ab9f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11104,7 +11108,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fe59aac6eb348c847980b311dcfc753b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 350bb4435f16ed9499ba50604b055d03, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12157,8 +12161,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 759a5a2aa5ea6474ba19a1624118779d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13610,7 +13614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fe59aac6eb348c847980b311dcfc753b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 350bb4435f16ed9499ba50604b055d03, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
