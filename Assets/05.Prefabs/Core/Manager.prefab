@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a7ce4231a940af21969b5df5f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _initPoolList: {fileID: 11400000, guid: 788e94280b060644493f1933fc9a40e7, type: 2}
   MaxStage: 3
 --- !u!114 &1720187245517046753
 MonoBehaviour:
