@@ -8,6 +8,9 @@ public class TitleUI : MonoBehaviour
     private float _currentTime = 0;
     private Transform _mainCamera;
 
+    [Header("Audio Clip")]
+    [SerializeField] private AudioClip _buttonDownClip;
+    
     [Header("UI")] 
     private UIDocument _uiDocument;
     private VisualElement _gameLabel;
@@ -40,10 +43,18 @@ public class TitleUI : MonoBehaviour
     {
         #if UNITY_EDITOR
         if (GameManager.Instance.CurrentGameState == GameState.WAIT && Input.GetMouseButtonDown(0))
+        {
             ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
+            AudioPlayer audioPlayer = PoolManager.Instance.Pop("AudioPlayer") as AudioPlayer;
+            audioPlayer.Setup(_buttonDownClip);
+        }
         #else
         if (GameManager.Instance.CurrentGameState == GameState.WAIT && Input.touchCount >= 1)
+        {
             ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
+            AudioPlayer audioPlayer = PoolManager.Instance.Pop("AudioPlayer") as AudioPlayer;
+            audioPlayer.Setup(_buttonDownClip);
+        }
         #endif
     }
 

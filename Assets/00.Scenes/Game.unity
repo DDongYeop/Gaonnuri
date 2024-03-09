@@ -6964,6 +6964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22860fc1506796b45ac71aebf3ca083f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameClearClip: {fileID: 8300000, guid: 1a9991685dad38948b9b1522370977b0, type: 3}
 --- !u!4 &1174270480 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 564624253508012966, guid: d5a3641d547b4ad44933ae55d036c135, type: 3}
@@ -7890,6 +7891,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   _temporaryObj: {fileID: 609737567}
+  _buttonDownClip: {fileID: 8300000, guid: e1b036de223604a498085bb7c3eb96ae, type: 3}
 --- !u!4 &1318314640
 Transform:
   m_ObjectHideFlags: 0
@@ -9423,6 +9425,7 @@ MonoBehaviour:
   - {fileID: 1364287638}
   - {fileID: 1785028794}
   - {fileID: 1924521212}
+  _buttonDownClip: {fileID: 8300000, guid: fb5883203cd626d46b2787add713ba4f, type: 3}
 --- !u!4 &1462956615 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 564624253508012966, guid: d5a3641d547b4ad44933ae55d036c135, type: 3}

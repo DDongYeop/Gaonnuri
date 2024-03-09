@@ -7,6 +7,9 @@ public class AreaCreator : MonoBehaviour
     [SerializeField] private GameObject _temporaryObj;
     private Vector3Int _currentPosition;
     
+    [Header("Audio Clip")]
+    [SerializeField] private AudioClip _buttonDownClip;
+    
     private void Update()
     {
         PositionCheck();
@@ -41,7 +44,10 @@ public class AreaCreator : MonoBehaviour
             return;
         if (UIManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] - 1 < 0 || GameManager.Instance.CurrentGameState != GameState.CREATOR)
             return;
-
+        
+        AudioPlayer audioPlayer = PoolManager.Instance.Pop("AudioPlayer") as AudioPlayer;
+        audioPlayer.Setup(_buttonDownClip);
+        
         UIManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData] -= 1;
         UIManager.Instance.AreaDic[AreaManager.Instance.CurrentAreaData].UseArea(UIManager.Instance.AreaDicCnt[AreaManager.Instance.CurrentAreaData]);
         AreaManager.Instance.CreateArea(_currentPosition);

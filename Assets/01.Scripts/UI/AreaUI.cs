@@ -14,6 +14,9 @@ public class AreaUI : MonoBehaviour
     private Image _image;
     private TextMeshProUGUI _cntText;
     
+    [Header("Audio Clip")]
+    [SerializeField] private AudioClip _buttonDownClip;
+    
     private void OnEnable()
     {
         _image = GetComponent<Image>();
@@ -35,5 +38,8 @@ public class AreaUI : MonoBehaviour
     public void ObjectSelect()
     {
         AreaManager.Instance.CurrentAreaData = _currentAreaData;
+        
+        AudioPlayer audioPlayer = PoolManager.Instance.Pop("AudioPlayer") as AudioPlayer;
+        audioPlayer.Setup(_buttonDownClip);
     }
 }

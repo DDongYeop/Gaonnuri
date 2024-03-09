@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0ff0edae-087e-4c09-8498-58135b9ed8ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/StageSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/StageSelect.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Area/AreaCreator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/AreaUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/AreaUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/StageSelectButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/StageSelectButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/TitleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/TitleUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/Area/UI/AreaButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/Area/UI/AreaButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/Core/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/Core/Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/StageSelect/Button (0).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/StageSelect/Button (0).prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +34,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Area/AreaManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Area/AreaSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Area/Stage/StageSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Audio/AudioPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/Admob.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/CameraOnPreCull.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/GameState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/MonoSingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/Pool/Pool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Core/StageManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Player/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -183,6 +189,7 @@
       <workItem from="1709693332328" duration="8000" />
       <workItem from="1709722673168" duration="987000" />
       <workItem from="1709970303114" duration="2789000" />
+      <workItem from="1709976041452" duration="1592000" />
     </task>
     <servers />
   </component>

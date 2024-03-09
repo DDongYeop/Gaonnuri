@@ -12575,6 +12575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08eb1c174b2f01340b9234fc61c9a6a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _buttonDownClip: {fileID: 8300000, guid: fb5883203cd626d46b2787add713ba4f, type: 3}
 --- !u!4 &1319126252
 Transform:
   m_ObjectHideFlags: 0
@@ -18161,6 +18162,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3317099807471811713, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
+      propertyPath: _initPoolList
+      value: 
+      objectReference: {fileID: 11400000, guid: 788e94280b060644493f1933fc9a40e7, type: 2}
     - target: {fileID: 4812708488931446843, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
       propertyPath: m_Name
       value: Manager
@@ -18168,28 +18173,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4812708488931446843, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 1901643315}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
---- !u!1 &1901643314 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4812708488931446843, guid: cd35850016ab92a468dde5792788dfa7, type: 3}
-  m_PrefabInstance: {fileID: 1901643313}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1901643315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901643314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa6a59e502daa614f80eb306f29f3a36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1902150915
 GameObject:
   m_ObjectHideFlags: 0

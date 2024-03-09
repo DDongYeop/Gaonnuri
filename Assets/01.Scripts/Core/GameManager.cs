@@ -8,6 +8,7 @@ public class GameManager : MonoSingleton<GameManager>
 
     public GameState CurrentGameState => _currentGameState;
 
+    [SerializeField] private PoolingListSO _initPoolList;
     public int MaxStage;
     
     private void Awake()
@@ -17,6 +18,7 @@ public class GameManager : MonoSingleton<GameManager>
         
         EarlySetting();
         FrameLimit();
+        CreatePool();
         SceneManager.sceneLoaded += LoadedSceneEvent;
     }
     
@@ -91,5 +93,14 @@ public class GameManager : MonoSingleton<GameManager>
 #if UNITY_ANDROID
         Application.targetFrameRate = 120;
 #endif
+    }
+    
+    private void CreatePool()
+    {
+        PoolManager.Instance = new PoolManager(transform);
+        _initPoolList.PoolList.ForEach(p =>
+        {
+            PoolManager.Instance.CreatePool(p.Prefab, p.Count);
+        });
     }
 }

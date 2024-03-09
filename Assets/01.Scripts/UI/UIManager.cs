@@ -22,6 +22,9 @@ public class UIManager : MonoSingleton<UIManager>
     [Header("Text")] 
     private TextMeshProUGUI _distanceTxt;
     private TextMeshProUGUI _jumpTxt;
+    
+    [Header("Audio Clip")]
+    [SerializeField] private AudioClip _buttonDownClip;
 
     private void OnEnable()
     {
@@ -56,11 +59,13 @@ public class UIManager : MonoSingleton<UIManager>
     {
         CameraManager.Instance.PlayCameraPriority(5);
         GameManager.Instance.StateChange(GameState.PLAY, 1);
+        ButtonDownSound();
     }
     
     public void ReStartButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        ButtonDownSound();
     }
 
     public void RePlay()
@@ -69,12 +74,20 @@ public class UIManager : MonoSingleton<UIManager>
         CameraManager.Instance.PlayCameraPriority(-5);
         GameManager.Instance.StateChange(GameState.CREATOR, 1);
         SetUICanvas(UICanvasState.INGAME);
+        ButtonDownSound();
     }
 
     public void HomeButton()
     {
         Admob.Instance.ShowAd();
         ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
+        ButtonDownSound();
+    }
+
+    private void ButtonDownSound()
+    {
+        AudioPlayer audioPlayer = PoolManager.Instance.Pop("AudioPlayer") as AudioPlayer;
+        audioPlayer.Setup(_buttonDownClip);
     }
 
     #endregion
