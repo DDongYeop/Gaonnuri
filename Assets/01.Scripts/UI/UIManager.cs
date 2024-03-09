@@ -73,6 +73,7 @@ public class UIManager : MonoSingleton<UIManager>
 
     public void HomeButton()
     {
+        Admob.Instance.ShowAd();
         ScreenTransition.Instance.SceneChange(1, GameState.WAIT);
     }
 

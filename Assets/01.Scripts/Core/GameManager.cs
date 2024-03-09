@@ -84,8 +84,6 @@ public class GameManager : MonoSingleton<GameManager>
         }
     }
     
-    public void OnPreCull() => GL.Clear(true, true, Color.black);
-    
     #endregion
 
     private void FrameLimit()
